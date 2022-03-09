@@ -1,0 +1,17 @@
+#配置项目访问接口
+#server:
+#  port=8080
+
+#配置项目名
+#server:
+#  servlet.context-path=/ceshi
+server:
+  port: 8080
+  servlet:
+    context-path: /ceshi
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sys
+    username: root
+    password: 123456
